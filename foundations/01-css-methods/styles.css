@@ -1,0 +1,9 @@
+/* styles.css */
+div {
+  background-color: red;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+  font-weight: 700;
+  font-size: x-large;
+}
