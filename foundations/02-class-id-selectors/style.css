@@ -1,0 +1,13 @@
+p.odd {
+  background-color: pink;
+  font-family: 'Verdana', 'DejaVu Sans', sans-serif;
+}
+#blu {
+  font-size: 36px;
+  color: blue;
+}
+#grn {
+  font-size: 24px;
+  font-weight: bold;
+  background-color: lightgreen;
+}

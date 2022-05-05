@@ -1,0 +1,56 @@
+From 913a6cb0ab83ef5f2b91067082be9b196551b9c4 Mon Sep 17 00:00:00 2001
+From: Gerrit Lane <lane.gerrit@gmail.com>
+Date: Sat, 30 Apr 2022 15:07:46 -0700
+Subject: [PATCH] Solve foundations problem 01
+
+---
+ foundations/01-css-methods/index.html | 11 ++++++++++-
+ foundations/01-css-methods/styles.css |  9 +++++++++
+ 2 files changed, 19 insertions(+), 1 deletion(-)
+ create mode 100644 foundations/01-css-methods/styles.css
+
+diff --git a/foundations/01-css-methods/index.html b/foundations/01-css-methods/index.html
+index effe3cc..7a9a1a9 100644
+--- a/foundations/01-css-methods/index.html
++++ b/foundations/01-css-methods/index.html
+@@ -5,10 +5,19 @@
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Methods for Adding CSS</title>
++    <link rel="stylesheet" href="styles.css" />
++    <style>
++      p {
++        background-color: green;
++        font-family: "Trebuchet MS", Helvetica, sans-serif;
++        color: white;
++        font-size: large;
++      }
++    </style>
+   </head>
+   <body>
+     <div>Style me via the external method!</div>
+     <p>I would like to be styled with the internal method, please.</p>
+-    <button>Inline Method</button>
++    <button style="background-color: orange; font-family: sans-serif; font-weight: 500; font-size: medium; border-radius: 0%; border-color: lightgray;">Inline Method</button>
+   </body>
+ </html>
+\ No newline at end of file
+diff --git a/foundations/01-css-methods/styles.css b/foundations/01-css-methods/styles.css
+new file mode 100644
+index 0000000..960ce2f
+--- /dev/null
++++ b/foundations/01-css-methods/styles.css
+@@ -0,0 +1,9 @@
++/* styles.css */
++div {
++  background-color: red;
++  text-align: center;
++  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
++  color: white;
++  font-weight: 700;
++  font-size: x-large;
++}
+\ No newline at end of file
+-- 
+2.36.0
+
