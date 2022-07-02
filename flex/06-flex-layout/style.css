@@ -23,6 +23,12 @@ button {
   padding: 8px 16px 8px 16px;
 }
 
+button:hover {
+  /* padding: 9px 18px 9px 18px; */
+  box-shadow: 1px 1px 0px 0px #808080;
+  cursor: pointer;
+}
+
 input {
   border: 1px solid #ddd;
   border-radius: 16px;
@@ -42,6 +48,11 @@ ul {
 a:link, a:visited {
   color: #404040;
   text-decoration: none;
+}
+
+a:hover, a:active {
+  border-bottom: 2px solid #606060;
+  color: #606060;
 }
 
 div.header {
